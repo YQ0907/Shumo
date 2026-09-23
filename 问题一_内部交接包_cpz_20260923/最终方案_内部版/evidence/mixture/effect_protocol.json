@@ -1,0 +1,8 @@
+{
+  "source": "train_the_pile_pile_cc",
+  "transfer_each": 0.01,
+  "nearest_neighbor_radius_p95": 0.2600350740397794,
+  "base_n": 231,
+  "support": "nonnegative/simplex, target shares below training p95, and candidate nearest-neighbor distance below training leave-one-out p95",
+  "interpretation": "Fitted 1M model scenario response, not a randomized causal effect or validated optimization result"
+}
