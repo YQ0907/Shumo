@@ -1,0 +1,320 @@
+{
+  "purpose": "Question 1 internal handoff; snapshots are copied, originals unchanged",
+  "count": 44,
+  "entries": [
+    {
+      "role": "problem",
+      "source": "算力约束下提升大语言模型能力的资源配置建模.docx",
+      "bundle": "problem/算力约束下提升大语言模型能力的资源配置建模.docx",
+      "bytes": 36836,
+      "sha256": "51109aac7168ddbcc4f3f6fdd79379fc8f14b5cd1722bcc5825702ad084bfeb4"
+    },
+    {
+      "role": "problem",
+      "source": "F题_精简重构版赛题.docx",
+      "bundle": "problem/F题_精简重构版赛题.docx",
+      "bytes": 52270,
+      "sha256": "7e9aed6b6adf7ada8b9e44cd76c4911159fa27fce4ef929a9f7ef00149ddc9db"
+    },
+    {
+      "role": "problem",
+      "source": "F题_精简重构版赛题.md",
+      "bundle": "problem/F题_精简重构版赛题.md",
+      "bytes": 10134,
+      "sha256": "9715bdcf820c3df6478541b982feda8ed16cebbd053a2d0f003d063abeb81e5f"
+    },
+    {
+      "role": "problem",
+      "source": "F：数据说明-去除隐藏词.md",
+      "bundle": "problem/F：数据说明-去除隐藏词.md",
+      "bytes": 29362,
+      "sha256": "306ee788b38760699d5fb20d1cef9ffe5c4665aa8708ace26026066075195e87"
+    },
+    {
+      "role": "problem",
+      "source": "题目分析报告.md",
+      "bundle": "problem/题目分析报告.md",
+      "bytes": 16144,
+      "sha256": "83f13df39acb02c85e9e753f3465bf1439cd9c88933400f9a6dc0837536efe86"
+    },
+    {
+      "role": "problem",
+      "source": "使用指南.md",
+      "bundle": "problem/使用指南.md",
+      "bytes": 3442,
+      "sha256": "5d985445c23ea480a5a5481b0a74196fc8f0dbce5ba04bb5600b4e549f1abbf2"
+    },
+    {
+      "role": "code",
+      "source": "问题一研究/quality_compare.py",
+      "bundle": "code/quality_compare.py",
+      "bytes": 12367,
+      "sha256": "aec8e18e0139f10e3a7df2966349be27c1bcaa6d90493ac5bbaed8f89dfc9c85"
+    },
+    {
+      "role": "code",
+      "source": "问题一研究/conflict_compare.py",
+      "bundle": "code/conflict_compare.py",
+      "bytes": 5879,
+      "sha256": "988f30526dd418068e47ac758e29f443a1e3f8bc4cd70d2884ca430d679f78f6"
+    },
+    {
+      "role": "code",
+      "source": "问题一研究/assess_ai_blind.py",
+      "bundle": "code/assess_ai_blind.py",
+      "bytes": 6125,
+      "sha256": "0fd63fce364fc1bca1b125d1fc7032c5c86290583f640e5c77d36856bb8be8ad"
+    },
+    {
+      "role": "code",
+      "source": "问题一研究/mixture_compare.py",
+      "bundle": "code/mixture_compare.py",
+      "bytes": 9616,
+      "sha256": "8dc52331f66158f0dc6bfb20446f46919118c8efbdada6d72915ea5b9cef8312"
+    },
+    {
+      "role": "code",
+      "source": "问题一研究/mixture_effects.py",
+      "bundle": "code/mixture_effects.py",
+      "bytes": 4084,
+      "sha256": "7374f9acc09a7d74016ad21596247c3b499209cae9994c9b1eaa672e65009b88"
+    },
+    {
+      "role": "code",
+      "source": "问题一研究/cross_session_audit.py",
+      "bundle": "code/cross_session_audit.py",
+      "bytes": 3504,
+      "sha256": "3b9af204154d92fc85621d204d691ad22428f8fc16a2b9eb0e7e3c04f5e63495"
+    },
+    {
+      "role": "code",
+      "source": "问题一研究/cross_session_mixture.py",
+      "bundle": "code/cross_session_mixture.py",
+      "bytes": 3688,
+      "sha256": "85a230618860ef4d5b789e148c2b193759dc344c70036839ea43c00cce07b1c0"
+    },
+    {
+      "role": "code",
+      "source": "问题一_质量与冲突实验.py",
+      "bundle": "code/问题一_质量与冲突实验.py",
+      "bytes": 17719,
+      "sha256": "794cf51be0241af962f13f9555348989be62d86b177a29ea8e57cf42ac336cbc"
+    },
+    {
+      "role": "code",
+      "source": "20260923_cpz _问题一方案对比实验/对比实验_问题一.py",
+      "bundle": "code/对比实验_问题一.py",
+      "bytes": 12775,
+      "sha256": "3512bd188bf62e64c302bf444f45238984784549d09226b63e1bd3326e81b4a5"
+    },
+    {
+      "role": "literature",
+      "source": "原题参考文献/01_Bahri_Explaining_neural_scaling_laws.pdf",
+      "bundle": "literature/01_Bahri_Explaining_neural_scaling_laws.pdf",
+      "bytes": 2013761,
+      "sha256": "4ec8fb5466f22e983f970ed6d6d7ab269d1bbb33c3b267ab3ffddb70d146d150"
+    },
+    {
+      "role": "literature",
+      "source": "原题参考文献/02_Hoffmann_Training_compute_optimal_LLMs.pdf",
+      "bundle": "literature/02_Hoffmann_Training_compute_optimal_LLMs.pdf",
+      "bytes": 3031304,
+      "sha256": "1e9f9c9d41306b611ee8dc01745fe38bff2ba9400c38ee0dbd6fdf571c20fd25"
+    },
+    {
+      "role": "literature",
+      "source": "原题参考文献/03_Liu_RegMix.pdf",
+      "bundle": "literature/03_Liu_RegMix.pdf",
+      "bytes": 1486226,
+      "sha256": "a492660731597c8eac0d2d8b59cc6b3a3fd317db024b16385eb28e888e42a3a4"
+    },
+    {
+      "role": "literature",
+      "source": "原题参考文献/04_Biderman_Pythia.pdf",
+      "bundle": "literature/04_Biderman_Pythia.pdf",
+      "bytes": 937410,
+      "sha256": "f7ec3f17583ce26baf169e669c7e587950d9bd846a9c883f54c4e0d55e5cb05d"
+    },
+    {
+      "role": "literature",
+      "source": "原题参考文献/05_Asai_Synthesizing_scientific_literature.pdf",
+      "bundle": "literature/05_Asai_Synthesizing_scientific_literature.pdf",
+      "bytes": 4748516,
+      "sha256": "7d3d5b5cf460ebb73d1a8f8ba76dd14567a50812c84d53ece86c7b0441469b18"
+    },
+    {
+      "role": "literature",
+      "source": "原题参考文献/06_Schaeffer_Emergent_abilities_mirage.pdf",
+      "bundle": "literature/06_Schaeffer_Emergent_abilities_mirage.pdf",
+      "bytes": 1896474,
+      "sha256": "d9e32b422693044e5f5f0714e7758e4abc6f8f8db763de59ecf25a9b7893207d"
+    },
+    {
+      "role": "literature",
+      "source": "原题参考文献/README_下载说明.md",
+      "bundle": "literature/README_下载说明.md",
+      "bytes": 1680,
+      "sha256": "c78d1bd349d7bed6beeb1f5a76a7d9ec98e25805c23cb13c5bd948dd044c89b2"
+    },
+    {
+      "role": "literature",
+      "source": "问题一研究/原题六篇论文与问题一的关系.md",
+      "bundle": "literature/原题六篇论文与问题一的关系.md",
+      "bytes": 4539,
+      "sha256": "a121cfd9e3e0ad6f057289b0a81b9dc7dec6332a669f041d947d90b49a624d99"
+    },
+    {
+      "role": "literature",
+      "source": "问题一_论文研读与模型路径比较.md",
+      "bundle": "literature/问题一_论文研读与模型路径比较.md",
+      "bytes": 9500,
+      "sha256": "bc1951e6fce96d47148b5b2447c2dc7b52d5081256d2d0eb54bd18fcab23f0e4"
+    },
+    {
+      "role": "evidence/quality",
+      "source": "问题一研究/quality_results/domain_summary.csv",
+      "bundle": "evidence/quality/domain_summary.csv",
+      "bytes": 1801,
+      "sha256": "80e2d2f0e6cad7df9d7790bb9ad1c62d4692ffc099886abe5afd9abccdfd8016"
+    },
+    {
+      "role": "evidence/quality",
+      "source": "问题一研究/quality_results/diagnostics.json",
+      "bundle": "evidence/quality/diagnostics.json",
+      "bytes": 1567,
+      "sha256": "d170eba9a96985cf0134b8d58a152fa0fa8b420fa50e9ff3021697d8de5734b1"
+    },
+    {
+      "role": "evidence/quality",
+      "source": "问题一研究/quality_results/AI盲评核验摘要.json",
+      "bundle": "evidence/quality/AI盲评核验摘要.json",
+      "bytes": 3889,
+      "sha256": "9114c999d4958fdf047e5a81433cc90f8f98d917c2eb4675a9534e2fb8f3a82b"
+    },
+    {
+      "role": "evidence/quality",
+      "source": "问题一研究/quality_results/原文盲评样本_子代理AI评分.csv",
+      "bundle": "evidence/quality/原文盲评样本_子代理AI评分.csv",
+      "bytes": 180864,
+      "sha256": "2415a57db082034c46d85129162ea57da097fd7c76298b3a6d4ba4b11a61f3b1"
+    },
+    {
+      "role": "evidence/conflict",
+      "source": "问题一研究/conflict_results/policy_summary.json",
+      "bundle": "evidence/conflict/policy_summary.json",
+      "bytes": 1743,
+      "sha256": "3d01d3caf728d0332e372334bf0f508a67256fff204597c02997e2f3648c992a"
+    },
+    {
+      "role": "evidence/conflict",
+      "source": "问题一研究/cross_session_results/quality_conflict_reconciliation.json",
+      "bundle": "evidence/conflict/quality_conflict_reconciliation.json",
+      "bytes": 1998,
+      "sha256": "9231f9459b90e50b204e50257823738094233311ae57e2113c398adfccea3321"
+    },
+    {
+      "role": "evidence/mixture",
+      "source": "问题一研究/mixture_results/model_comparison.json",
+      "bundle": "evidence/mixture/model_comparison.json",
+      "bytes": 42425,
+      "sha256": "079c4d9a8bb831e0091e6115f911975d8a8c665dfa73309af254ffb998ea63e8"
+    },
+    {
+      "role": "evidence/mixture",
+      "source": "问题一研究/mixture_results/effect_protocol.json",
+      "bundle": "evidence/mixture/effect_protocol.json",
+      "bytes": 408,
+      "sha256": "58fed45cf084968e111f17d1d1375baa0bd93150fe7dec25093f816b74c29cb8"
+    },
+    {
+      "role": "evidence/mixture",
+      "source": "问题一研究/mixture_results/one_point_transfers.csv",
+      "bundle": "evidence/mixture/one_point_transfers.csv",
+      "bytes": 5562,
+      "sha256": "d1f7aad6c30be6827a4219ea5198bdbee017939d12031f7172bb5aee5ab89691"
+    },
+    {
+      "role": "evidence/mixture",
+      "source": "问题一研究/mixture_results/two_domain_interactions.csv",
+      "bundle": "evidence/mixture/two_domain_interactions.csv",
+      "bytes": 21485,
+      "sha256": "4091844bea53cb1301fc319389f8ffcc0a2c3627cbda4e1e77ff95f27966b43b"
+    },
+    {
+      "role": "evidence/mixture",
+      "source": "问题一研究/mixture_results/test_1m_predictions.csv",
+      "bundle": "evidence/mixture/test_1m_predictions.csv",
+      "bytes": 69189,
+      "sha256": "61fd0e67a509a70b16ffc2d49e5c61d3a4110ea4d42a854f3d3c23641b2540ca"
+    },
+    {
+      "role": "evidence/mixture",
+      "source": "问题一研究/cross_session_results/harmonized_kernel_results.json",
+      "bundle": "evidence/mixture/harmonized_kernel_results.json",
+      "bytes": 62290,
+      "sha256": "a01f454370e9d781da0fb7ad5bcc12bb0f6d7421ed20cc2ca3413bb71378aa85"
+    },
+    {
+      "role": "evidence/other_session",
+      "source": "20260923_cpz _问题一方案对比实验/问题一_三版方案比较与选择.md",
+      "bundle": "evidence/other_session/问题一_三版方案比较与选择.md",
+      "bytes": 10825,
+      "sha256": "c1f71d722547dbd64d14f0b610a1ad7605710237a26ad2c9743572211817374a"
+    },
+    {
+      "role": "evidence/other_session",
+      "source": "20260923_cpz _问题一方案对比实验/experiment_results.json",
+      "bundle": "evidence/other_session/experiment_results.json",
+      "bytes": 18818,
+      "sha256": "8f4eec5bda7ed25d1c221a829a1e5decc3c2bec1abd885e0cc10fb855bde220b"
+    },
+    {
+      "role": "evidence/other_session",
+      "source": "问题一质量实验/A1_summary.csv",
+      "bundle": "evidence/other_session/A1_summary.csv",
+      "bytes": 2501,
+      "sha256": "e7140c71e2b01324fa2f6037bbdb551f8e199108b5d920a2fac76ff197da7ebf"
+    },
+    {
+      "role": "evidence/other_session",
+      "source": "问题一质量实验/A2_summary.csv",
+      "bundle": "evidence/other_session/A2_summary.csv",
+      "bytes": 1275,
+      "sha256": "fd01e3e043ab75019dd32849b1ae6c2bc8523bc2cbc8cc30c9d106ad047c6f3e"
+    },
+    {
+      "role": "evidence/other_session",
+      "source": "问题一质量实验/A3_summary.csv",
+      "bundle": "evidence/other_session/A3_summary.csv",
+      "bytes": 1558,
+      "sha256": "38703c857e43bf02cf687cfb48f8cf5977a21ea222d71ea9308d83f05c915047"
+    },
+    {
+      "role": "notes",
+      "source": "问题一研究/F_Q1-1与F_Q1-2综合比较.md",
+      "bundle": "notes/F_Q1-1与F_Q1-2综合比较.md",
+      "bytes": 8427,
+      "sha256": "3c51a0972c52daaaed71d548d388807189c6b654c5729fbe0c2155adeda2763d"
+    },
+    {
+      "role": "notes",
+      "source": "问题一研究/问题一三阶段对比结果_供队伍复核.md",
+      "bundle": "notes/问题一三阶段对比结果_供队伍复核.md",
+      "bytes": 11574,
+      "sha256": "806874255aadcfd84f5ca137fdc36f6d8be6fd62d86e23279dd2dace6d93b6b4"
+    },
+    {
+      "role": "notes",
+      "source": "问题一研究/质量阶段结果.md",
+      "bundle": "notes/质量阶段结果.md",
+      "bytes": 4498,
+      "sha256": "4156f51faf44d744eba574f38a3d7a0a348875fc50149c93825d021ca8faee01"
+    }
+  ],
+  "not_copied": [
+    "real_attachments/A_data_value/* (raw source and 17-domain RegMix tables)",
+    "问题一研究/quality_results/sample_scores.csv (full rows in SQLite)",
+    "问题一研究/conflict_results/route_scores.csv (full row policy output)",
+    "问题一质量实验/A1_record_scores.csv / A2_record_scores.csv / A3_record_scores.csv (full rows in SQLite)"
+  ]
+}

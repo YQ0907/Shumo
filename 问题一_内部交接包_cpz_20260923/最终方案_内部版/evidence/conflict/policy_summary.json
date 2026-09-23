@@ -1,0 +1,60 @@
+{
+  "policy": {
+    "baseline": "keep both conflicting values, group mean",
+    "robust": "four-group median, no feature deletion",
+    "consensus": "if one conflicting value is >0.1 farther from other same-group indicators, replace it by their median; ties remain unresolved",
+    "abstain": "flag conflicting text for manual review, retain raw score only for others"
+  },
+  "pair_details": {
+    "fineweb_edu|qurater_3": {
+      "flagged": 1333,
+      "a_replaced": 988,
+      "b_replaced": 152,
+      "unresolved": 193
+    },
+    "fluency_en|modernbert_readability": {
+      "flagged": 2060,
+      "a_replaced": 1786,
+      "b_replaced": 217,
+      "unresolved": 57
+    },
+    "modernbert_professionalism|qurater_1": {
+      "flagged": 1773,
+      "a_replaced": 1773,
+      "b_replaced": 0,
+      "unresolved": 0
+    },
+    "rps_doc_frac_chars_top_2gram|rps_doc_frac_chars_top_3gram": {
+      "flagged": 307,
+      "a_replaced": 223,
+      "b_replaced": 47,
+      "unresolved": 37
+    }
+  },
+  "sources": {
+    "A1": {
+      "n": 51230,
+      "conflict_n": 1037,
+      "unresolved_n": 88,
+      "mean_baseline": 0.637355799973784,
+      "mean_consensus": 0.6379105790875831,
+      "mean_abs_change_conflict": 0.04127829566259605
+    },
+    "A2": {
+      "n": 17523,
+      "conflict_n": 0,
+      "unresolved_n": 0,
+      "mean_baseline": 0.7580716704790531,
+      "mean_consensus": 0.7580716704790531,
+      "mean_abs_change_conflict": 0.0
+    },
+    "A3": {
+      "n": 203752,
+      "conflict_n": 4396,
+      "unresolved_n": 199,
+      "mean_baseline": 0.5762363358377376,
+      "mean_consensus": 0.5763926087460784,
+      "mean_abs_change_conflict": 0.0399199981640813
+    }
+  }
+}

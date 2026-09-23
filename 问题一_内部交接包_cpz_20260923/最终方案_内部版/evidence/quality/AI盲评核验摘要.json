@@ -1,0 +1,135 @@
+{
+  "provenance": "Two AI subagents read disjoint 1500-character snippets blind to model scores; 40 snippets independently cross-rated. This is not human ground truth.",
+  "n": 135,
+  "domain_counts": {
+    "book": 20,
+    "c4": 20,
+    "commoncrawl": 20,
+    "stackexchange": 20,
+    "github": 20,
+    "wikipedia": 20,
+    "arxiv": 15
+  },
+  "routes": {
+    "group_equal": {
+      "pooled_spearman": 0.5312721761862171,
+      "median_within_domain_spearman": 0.6208299857997988,
+      "within_domain_spearman": {
+        "arxiv": 0.6329684048482186,
+        "book": -0.010131114168320514,
+        "c4": 0.7097093626041299,
+        "commoncrawl": 0.8087651428877877,
+        "github": 0.6151291852249186,
+        "stackexchange": 0.6208299857997988,
+        "wikipedia": 0.6135021565273333
+      }
+    },
+    "flat_equal": {
+      "pooled_spearman": 0.5853524694761306,
+      "median_within_domain_spearman": 0.6016139327814336,
+      "within_domain_spearman": {
+        "arxiv": 0.6016139327814336,
+        "book": 0.023379494234585803,
+        "c4": 0.6011655777352629,
+        "commoncrawl": 0.7630291310373943,
+        "github": 0.6260440250134469,
+        "stackexchange": 0.6872371733355981,
+        "wikipedia": 0.5320343904844083
+      }
+    },
+    "group_median": {
+      "pooled_spearman": 0.393104694543518,
+      "median_within_domain_spearman": 0.518733530722298,
+      "within_domain_spearman": {
+        "arxiv": 0.49579258955603495,
+        "book": -0.03818650724982348,
+        "c4": 0.6444312821934826,
+        "commoncrawl": 0.7721763334074729,
+        "github": 0.4155435433775431,
+        "stackexchange": 0.5420679726759436,
+        "wikipedia": 0.518733530722298
+      }
+    },
+    "pca_structural": {
+      "pooled_spearman": 0.259416445585237,
+      "median_within_domain_spearman": 0.34927487323290685,
+      "within_domain_spearman": {
+        "arxiv": 0.8289338552656236,
+        "book": 0.02727607660701677,
+        "c4": 0.5161522637120944,
+        "commoncrawl": 0.2477367308562969,
+        "github": 0.34927487323290685,
+        "stackexchange": -0.04401406615744843,
+        "wikipedia": 0.7182464271539512
+      }
+    }
+  },
+  "conflict_route_checks": {
+    "group_equal/all": {
+      "n": 135,
+      "spearman": 0.5312721761862171
+    },
+    "group_equal/flagged": {
+      "n": 32,
+      "spearman": 0.15056169909931952
+    },
+    "group_median/all": {
+      "n": 135,
+      "spearman": 0.393104694543518
+    },
+    "group_median/flagged": {
+      "n": 32,
+      "spearman": -0.1029085504927615
+    },
+    "consensus_correction/all": {
+      "n": 135,
+      "spearman": 0.4923489324335105
+    },
+    "consensus_correction/flagged": {
+      "n": 32,
+      "spearman": 0.06619522977642496
+    },
+    "manual_review_abstain/all": {
+      "n": 103,
+      "spearman": 0.6294091715574492
+    },
+    "manual_review_abstain/flagged": {
+      "n": 0,
+      "spearman": null
+    }
+  },
+  "inter_agent_agreement": {
+    "人工信息价值_0到3": {
+      "n": 40,
+      "exact_fraction": 0.875,
+      "within_one_fraction": 1.0,
+      "quadratic_weighted_kappa": 0.9173553719008265
+    },
+    "人工可读性_0到3": {
+      "n": 40,
+      "exact_fraction": 0.8,
+      "within_one_fraction": 1.0,
+      "quadratic_weighted_kappa": 0.7802197802197802
+    },
+    "人工噪声_0到3": {
+      "n": 40,
+      "exact_fraction": 0.8,
+      "within_one_fraction": 1.0,
+      "quadratic_weighted_kappa": 0.8990536277602523
+    }
+  },
+  "conflict_strata": [
+    {
+      "conflict": 0,
+      "n": 103,
+      "mean_ai_score": 0.7173678532901834,
+      "mean_group_score": 0.6489269563195021
+    },
+    {
+      "conflict": 1,
+      "n": 32,
+      "mean_ai_score": 0.6701388888888888,
+      "mean_group_score": 0.6347152849802709
+    }
+  ]
+}

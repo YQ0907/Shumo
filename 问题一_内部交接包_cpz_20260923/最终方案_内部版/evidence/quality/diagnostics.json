@@ -1,0 +1,49 @@
+{
+  "counts": {
+    "A1": 51230,
+    "A2": 17523,
+    "A3": 203752
+  },
+  "nonfinite_raw": {
+    "fineweb_edu": 0,
+    "fluency_en": 0,
+    "modernbert_cleanliness": 0,
+    "modernbert_readability": 0,
+    "modernbert_reasoning": 13,
+    "modernbert_professionalism": 6,
+    "dsir_books": 0,
+    "dsir_wiki": 0,
+    "dsir_math": 0,
+    "qurater_0": 0,
+    "qurater_1": 0,
+    "qurater_2": 0,
+    "qurater_3": 0,
+    "ad_en": 0,
+    "rps_doc_word_count": 0,
+    "rps_doc_num_sentences": 0,
+    "rps_doc_unigram_entropy": 0,
+    "rps_doc_frac_unique_words": 0,
+    "rps_doc_frac_no_alph_words": 0,
+    "rps_doc_frac_chars_top_2gram": 0,
+    "rps_doc_frac_chars_top_3gram": 0,
+    "rps_lines_uppercase_letter_fraction": 0,
+    "rps_lines_ending_with_terminal_punctution_mark": 0,
+    "rps_lines_numerical_chars_fraction": 0,
+    "rps_doc_mean_word_length": 0
+  },
+  "pair_conflicts": {
+    "fineweb_edu|qurater_3": 1333,
+    "fluency_en|modernbert_readability": 2060,
+    "modernbert_professionalism|qurater_1": 1773,
+    "rps_doc_frac_chars_top_2gram|rps_doc_frac_chars_top_3gram": 307
+  },
+  "score_correlations_A1": {
+    "group_equal|group_median": 0.9259353779192759,
+    "group_equal|pca_structural": 0.4797390035342731,
+    "flat_equal|group_equal": 0.9538593138598591,
+    "flat_equal|group_median": 0.8166956399438999,
+    "flat_equal|pca_structural": 0.3825883225269184,
+    "group_median|pca_structural": 0.45862192335287516
+  },
+  "note": "PCA is structural, and no path has human quality ground truth here."
+}
